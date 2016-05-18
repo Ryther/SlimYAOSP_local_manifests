@@ -35,6 +35,7 @@
 	<remove-project name="SlimRoms/android_build" />
 	
 <!-- Remove unused devices/hardware/kernels/prebuilts -->
+	SlimRoms/kernel_lge_bullhead
 	<remove-project name="device/generic/arm64" groups="pdk" />
 	<remove-project name="device/generic/armv7-a-neon" groups="pdk" />
 	<remove-project name="device/generic/common" groups="pdk" />
@@ -90,7 +91,7 @@
 	
 <!-- bullhead proprietary files -->
 	<project path="device/lge/bullhead" name="device_lge_bullhead" remote="YAOSP" />
-	<project path="kernel/lge/bullhead" name="YAOSP/kernel_lge_bullhead" remote="YAOSP" />
+	<project path="kernel/lge/bullhead" name="kernel_lge_bullhead" remote="YAOSP" />
 	<project path="vendor/lge" name="vendor_lge" remote="YAOSP" />
 	
 <!-- Ryther misc -->
