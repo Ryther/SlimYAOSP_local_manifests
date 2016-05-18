@@ -9,9 +9,6 @@
 		fetch="git://github.com/YAOSP/"
 		revision="YAOSP-MM-6.0.1_r25" />
 
-<remote name="pure"
-        	fetch="https://github.com/PureNexusProject/" />
-
 <!-- Remove standard slim projects -->
 	<remove-project name="SlimRoms/frameworks_base" />
 	<remove-project name="SlimRoms/packages_apps_Settings" />
@@ -35,7 +32,6 @@
 	<remove-project name="SlimRoms/android_build" />
 	
 <!-- Remove unused devices/hardware/kernels/prebuilts -->
-	SlimRoms/kernel_lge_bullhead
 	<remove-project name="device/generic/arm64" groups="pdk" />
 	<remove-project name="device/generic/armv7-a-neon" groups="pdk" />
 	<remove-project name="device/generic/common" groups="pdk" />
