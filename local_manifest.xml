@@ -5,6 +5,9 @@
 		fetch="git://github.com/SlimYAOSP/"
 		revision="mm6.0-20160515-1123" />
 
+<remote name="pure"
+        	fetch="https://github.com/PureNexusProject/" />
+
 <!-- Remove standard slim projects -->
 	<remove-project name="SlimRoms/frameworks_base" />
 	<remove-project name="SlimRoms/packages_apps_Settings" />
