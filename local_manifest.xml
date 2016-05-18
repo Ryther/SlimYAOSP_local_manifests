@@ -5,6 +5,10 @@
 		fetch="git://github.com/SlimYAOSP/"
 		revision="mm6.0-20160515-1123" />
 
+<remote name="YAOSP"
+		fetch="git://github.com/YAOSP/"
+		revision="YAOSP-MM-6.0.1_r25" />
+
 <remote name="pure"
         	fetch="https://github.com/PureNexusProject/" />
 
@@ -85,9 +89,9 @@
   	</project>
 	
 <!-- bullhead proprietary files -->
-	<project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm" />
-	<project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm" />
-	<project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="mm" />
+	<project path="device/lge/bullhead" name="device_lge_bullhead" remote="YAOSP" />
+	<project path="kernel/lge/bullhead" name="YAOSP/kernel_lge_bullhead" remote="YAOSP" />
+	<project path="vendor/lge" name="vendor_lge" remote="YAOSP" />
 	
 <!-- Ryther misc -->
 	<project name="Ryther/scripts" path="ryther/scripts" remote="github" revision="master" />
