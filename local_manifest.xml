@@ -81,6 +81,11 @@
     		<copyfile src="core/root.mk" dest="Makefile" />
   	</project>
 	
+<!-- bullhead proprietary files -->
+	<project path="device/lge/bullhead" name="android_device_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm" />
+	<project path="kernel/lge/bullhead" name="android_kernel_lge_bullhead" groups="device,bullhead" remote="pure" revision="mm" />
+	<project path="vendor/lge" name="proprietary_vendor_lge" remote="pure" revision="mm" />
+	
 <!-- Ryther misc -->
 	<project name="Ryther/scripts" path="ryther/scripts" remote="github" revision="master" />
 
